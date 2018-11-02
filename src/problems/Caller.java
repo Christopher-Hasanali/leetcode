@@ -16,6 +16,7 @@ public class Caller {
         Problem70 p70 = new Problem70();
         Problem32 p32 = new Problem32();
         Problem53 p53 = new Problem53();
+        Problem198 p198 = new Problem198();
         //System.out.println(p929.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
 //[[-80,-13,22],[83,94,-5],[73,-48,61]]
         matrix[0] = new int[]{ -80,-13,22 };
@@ -27,7 +28,8 @@ public class Caller {
         //System.out.println(p32.longestValidParentheses(")()())()()("));
         //System.out.println(p121.maxProfit(new int[]{7,1,5,3,6,4}));
         //System.out.println(p70.climbStairs(5));
-        System.out.println(p53.maxSubArray(new int[]{8,-19,5,-4,20}));
+        //System.out.println(p53.maxSubArray(new int[]{8,-19,5,-4,20}));
+        System.out.println(p198.rob(new int[]{2,1,1,2}));
         //printListInteger(p.spiralOrder(matrix));
         //System.out.println(p2.kInversePairs(3,1));
     }
