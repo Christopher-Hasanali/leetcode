@@ -8,6 +8,7 @@ public class Caller {
         Problem629 p2 = new Problem629();
         int[][] matrix = new int[3][3];
 
+        Problem935 p935 = new Problem935();
         Problem929 p929 = new Problem929();
         Problem930 p930 = new Problem930();
         Problem931 p931 = new Problem931();
@@ -29,7 +30,8 @@ public class Caller {
         //System.out.println(p121.maxProfit(new int[]{7,1,5,3,6,4}));
         //System.out.println(p70.climbStairs(5));
         //System.out.println(p53.maxSubArray(new int[]{8,-19,5,-4,20}));
-        System.out.println(p198.rob(new int[]{2,1,1,2}));
+        //System.out.println(p198.rob(new int[]{2,1,1,2}));
+        System.out.println(p935.knightDialer(161));
         //printListInteger(p.spiralOrder(matrix));
         //System.out.println(p2.kInversePairs(3,1));
     }
