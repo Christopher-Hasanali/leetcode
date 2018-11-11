@@ -18,12 +18,14 @@ public class Caller {
         Problem32 p32 = new Problem32();
         Problem53 p53 = new Problem53();
         Problem198 p198 = new Problem198();
+        Problem937 p937 = new Problem937();
+        Problem940 p940 = new Problem940();
         //System.out.println(p929.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
 //[[-80,-13,22],[83,94,-5],[73,-48,61]]
         matrix[0] = new int[]{ -80,-13,22 };
         matrix[1] = new int[]{ 83,94,-5 };
         matrix[2] = new int[]{ 73,-48,61 };
-
+        p940.distinctSubseqII("xchdhiebcu");
         //System.out.println(p931.numSubarraysWithSum(new int[]{1,0,1,0,1},2));
         //printArray( p932.beautifulArray(5));
         //System.out.println(p32.longestValidParentheses(")()())()()("));
@@ -31,7 +33,12 @@ public class Caller {
         //System.out.println(p70.climbStairs(5));
         //System.out.println(p53.maxSubArray(new int[]{8,-19,5,-4,20}));
         //System.out.println(p198.rob(new int[]{2,1,1,2}));
-        System.out.println(p935.knightDialer(161));
+        //System.out.println(p935.knightDialer(161));
+        /*String a1[] = new String[] {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"};
+        String b1[]=p937.reorderLogFiles(a1);
+        for(String s:b1){
+            System.out.println(s);
+        }*/
         //printListInteger(p.spiralOrder(matrix));
         //System.out.println(p2.kInversePairs(3,1));
     }
