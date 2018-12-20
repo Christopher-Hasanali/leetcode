@@ -20,12 +20,14 @@ public class Caller {
         Problem198 p198 = new Problem198();
         Problem937 p937 = new Problem937();
         Problem940 p940 = new Problem940();
+        Calculator cc = new Calculator();
         //System.out.println(p929.numUniqueEmails(new String[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}));
 //[[-80,-13,22],[83,94,-5],[73,-48,61]]
         matrix[0] = new int[]{ -80,-13,22 };
         matrix[1] = new int[]{ 83,94,-5 };
         matrix[2] = new int[]{ 73,-48,61 };
-        p940.distinctSubseqII("xchdhiebcu");
+        cc.calculateNPrint();
+        //p940.distinctSubseqII("xchdhiebcu");
         //System.out.println(p931.numSubarraysWithSum(new int[]{1,0,1,0,1},2));
         //printArray( p932.beautifulArray(5));
         //System.out.println(p32.longestValidParentheses(")()())()()("));
